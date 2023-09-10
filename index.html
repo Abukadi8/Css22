@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>CSS Class Extractor</title>
+  </head>
+
+  <body>
+    <div id="ar">
+      <div class="wrap">
+        <button id="changeEnglish">English</button>
+        <h1>ادخال كود سي اس اس</h1>
+        <textarea
+          id="inputTextArea"
+          placeholder="Enter multiple tags here..."
+          rows="10"
+          cols="40"
+        ></textarea>
+        <button style="display: block" id="extractButton">معالجه</button>
+        <h2>الكلاسات المتشابه في الاسم والخصائص</h2>
+        <textarea id="fristTextArea" rows="5" cols="40" readonly></textarea>
+        <h2>الكلاسات المتشابه في الاسم ومختلفه في الخصائص</h2>
+        <textarea id="secondTextArea" rows="5" cols="40" readonly></textarea>
+        <h2>الكلاسات المختلفه في الاسم والمتشابها في الخصائص</h2>
+        <textarea id="thereTextArea" rows="5" cols="40" readonly></textarea>
+        <h2>باقي الكلاسات</h2>
+        <textarea id="foreTextArea" rows="5" cols="40" readonly></textarea>
+      </div>
+    </div>
+    <div id="en">
+      <div class="wrap">
+        <button id="changeArabic">Arabic</button>
+        <h1>Enter Code Css</h1>
+        <textarea
+          id="inputTextArea"
+          placeholder="Enter multiple tags here..."
+          rows="10"
+          cols="40"
+        ></textarea>
+        <button style="display: block" id="extractButton">Implement</button>
+
+        <h2>Classes that are similar in name and propety</h2>
+        <textarea id="fristTextArea" rows="5" cols="40" readonly></textarea>
+        <h2>Classes that are similar in name and not property</h2>
+        <textarea id="secondTextArea" rows="5" cols="40" readonly></textarea>
+
+        <h2>Classes that are similar in proprety and not name</h2>
+        <textarea id="thereTextArea" rows="5" cols="40" readonly></textarea>
+        <h2>The rest of classes</h2>
+        <textarea id="foreTextArea" rows="5" cols="40" readonly></textarea>
+      </div>
+    </div>
+    <script src="./script/script.js" type="module"></script>
+  </body>
+</html>
